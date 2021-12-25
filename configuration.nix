@@ -214,6 +214,7 @@
     gparted
     android-tools
     scrcpy
+    nerdfonts
     pkgs.gnome3.gnome-boxes
     pkgs.gnome3.file-roller
     pkgs.gnome3.gnome-tweaks
