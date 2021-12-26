@@ -134,6 +134,7 @@
     obs-studio
     gnupg
     openssl
+    mongodb-compass
     deltachat-desktop
     retroarch
     xclip
