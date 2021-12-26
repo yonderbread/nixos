@@ -131,6 +131,7 @@
     keepassxc
     tenacity
     obs-studio
+    gnupg
     openssl
     deltachat-desktop
     retroarch
@@ -342,4 +343,3 @@
   # ------------------------------------------------
 
 }
-
