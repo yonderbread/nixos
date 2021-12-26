@@ -10,7 +10,7 @@
 >
 ## Installation
 >
-#### Download the `configuration.nix` file
+#### Download the [`configuration.nix`](https://raw.githubusercontent.com/yonderbread/nixos/master/configuration.nix) file
 ```bash
 curl https://raw.githubusercontent.com/yonderbread/nixos/master/configuration.nix > configuration.nix
 ```
