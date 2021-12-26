@@ -17,7 +17,7 @@
   # Define on which hard drive you want to install Grub.
   boot.loader.grub.device = "/dev/sda"; # or "nodev" for efi only
   # ------------------------------------------------
-
+  
   # TIME
   time.timeZone = "America/Vancouver";
   # ------------------------------------------------
@@ -28,7 +28,7 @@
   networking.interfaces.enp4s0.useDHCP = true;
   networking.interfaces.wlp5s0.useDHCP = true;
   networking.defaultGateway = "192.168.1.1";
-  networking.nameservers =
+  networking.nameservers = 
     [
       "9.9.9.9"
       "9.9.9.11"
@@ -83,8 +83,8 @@
   # USERS
   users.users.euphoric = {
     isNormalUser = true;
-    extraGroups =
-      [
+    extraGroups = 
+      [ 
         "wheel"
         "audio"
       ];
@@ -116,6 +116,7 @@
     mpv
     alacritty
     starship
+    github-cli
     cordless
     lutris
     transmission
@@ -329,7 +330,7 @@
   networking.firewall.enable = true;
   networking.firewall.allowPing = false;
   # ------------------------------------------------
-
+ 
   # SYSTEM
   system.stateVersion = "21.11";
   xdg.portal.enable = true;
