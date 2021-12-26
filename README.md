@@ -24,3 +24,7 @@ sudo cp configuration.nix /etc/nixos/configuration.nix
 sudo nixos-rebuild boot -j`nproc`
 sudo reboot # Apply the changes
 ```
+.. or to immediately switch to the newly built configuration (not recommended!) ..
+```bash
+sudo nixos-rebuild switch -j8
+```
